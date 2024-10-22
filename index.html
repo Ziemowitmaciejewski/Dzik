@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzik</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <article>
+            <h1 class="headline">JAK GRAC</h1>
+            <p class="content">Najpierw, klikając przycisk SET TIME wybierz czas w sekundach, jak szybko maja zmieniać się liczby. Następnie wybierz START, żeby rozpocząć grę. Gra polega na kliknięciu Dzika kiedy pokazana liczba jest podzielna przez 7 lub którakolwiek z cyfr jest 7.</p>
+        </article>
+    </section>
+    <main>
+            <h1 id="title">GRA DZIK</h1>
+        <div>
+            <button id="dziki" onclick="roznica()"><img src="dzik.png" alt="" id="dzik"></button>
+        </div>
+        <p id="tekst">0</p>
+        <p id="czas">-</p>
+        <p id="footer">Made by Ziemowit Maciejewski, Wojciech Ogórek, Bartosz Zawadzki-Pietrzak</p>
+    </main>
+    <section>
+        <article>
+            <h1 class="headline">OPCJE</h1>
+            <button class="buttoninny" onclick="start()">START</button><br>
+            <button class="buttoninny" onclick="ustawCzas()">SET TIME</button>
+            <p class="content" id="best">Best time: -</p>
+        </article>
+    </section>
+    
+</body>
+</html>

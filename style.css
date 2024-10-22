@@ -1,0 +1,117 @@
+* {
+    font-family: Comic Sans MS;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: inline;
+}
+section {
+    width: 20%;
+    height: 100vh;
+    background-color:#cfac7e;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    background-color:burlywood;
+    width: 60%;
+    height: 100vh;
+    float: left;
+}
+
+#title {
+    font-size: 15vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dzik {
+    height: 50vh;
+    transition: all 0.2s;
+    
+}
+
+#dziki {
+    margin-top: 20px;
+    background: none;
+    max-width: 50%;
+    border: none;
+    transition: all 0.2s;
+    transform: scale(1)
+}
+
+#dziki :hover {
+    cursor: pointer;
+    transition: all 0.2s;
+    transform: scale(1.2);
+}
+
+#dziki :active {
+    cursor: pointer;
+    transition: all 0.1s;
+    transform: scale(1.1)
+}
+
+#tekst {
+    padding-top: 50px;
+    font-size: 8vh;
+}
+
+#czas {
+    padding-top: 10px;
+    font-size: 2vh;
+}
+
+article {
+    width: 80%;
+    text-align: center;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 10px;
+    padding: 4%;
+}
+
+.headline {
+    font-size: 5vh;
+    padding: 20px 0 20px 0;
+}
+
+.content {
+    font-size: 2vh;
+    padding: 20px 0 20px 0;
+}
+
+#footer {
+    padding-top: 30px;
+}
+
+.buttoninny{
+    font-size: 4vh;
+    margin: 20px;
+    padding: 10px;
+    background-color:burlywood;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    transition: all 0.1s;
+}
+
+.buttoninny:hover {
+    cursor: pointer;
+    transition: all 0.1s;
+    transform: scale(1.1)
+}
+
+.buttoninny:active {
+    cursor: pointer;
+    transition: all 0.1s;
+    transform: scale(1.05)
+}
